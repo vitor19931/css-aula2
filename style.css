@@ -1,0 +1,128 @@
+/* RESET DAS CONFIGURAÇÕES DO NAVEGADOR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(209, 7, 7);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Comic Sans Ms";
+
+}
+
+.index {
+    background-color: rgb(197, 156, 79);
+    background-image: url("assets/fundo png.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.segunda-pagina {
+    background-color: rgb(211, 14, 14);
+    background-image: url("assets/fundo2.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.terceira-pagina {
+    background-color: rgb(14, 211, 14);
+    background-image: url("assets/fundo3.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Comic Sans Ms";
+    color: rgb(197, 187, 183);
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    margin: 20px 70px;
+    color: rgb(233, 224, 224);
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 300px;
+    margin:10px auto;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+/* links styled like buttons */
+.button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: #7d8d44;
+    color: #f1ecec;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation-buttons {
+    text-align: center;
+}
+
+.navigation-buttons .button {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+ol{
+    padding: 30px auto;
+    text-align: center;
+    list-style-position: inside;
+}
+
+li{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(194, 130, 97);
+
+}
+
+.Alunas-pag-2{
+    color: rgb(77, 77, 167);
+}
+
+.Alunos-pag-3{
+    color: green;
+}
